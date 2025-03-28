@@ -14,11 +14,13 @@ public class Login extends wrapper{
 	}
 	public void clietid()
 	{
-		type("#logintype_clientid", "25018");
+		type("#logintype_clientid", "25018"); //US
+		//type("#logintype_clientid", "16265"); //stage2
 	}
 	public void username()
 	{
 		type("#logintype_username", "maya");
+	
 	}
 public void password()
 

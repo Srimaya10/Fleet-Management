@@ -223,7 +223,7 @@ public class smoketest_US extends Baseclass{
 		Thread.sleep(2000);
 		click("//button[@class=\"btn btn-primary no-margin\"]");
 		Thread.sleep(2000);
-		click("//span[contains(text(),'Next')]");
+		click("//button[@class=\"btn btn-primary no-margin\"]");
 	    Thread.sleep(2000);
 		//Delete check form
 	    click("//input[@id=\"folder-search\"]");
@@ -294,7 +294,7 @@ public class smoketest_US extends Baseclass{
 		type("//input[@class=\"select2-input select2-focused\"]", "srimaya suresh");
 		typeenter("//input[@class=\"select2-input select2-focused\"]");
 		Thread.sleep(2000);
-		click("//span[contains(text(),'Next')]");
+		click("//button[@class=\"btn btn-primary no-margin\"]");
 		Thread.sleep(2000);
 		click("(//a[contains(text(),'Settings')])[2]");
 	}

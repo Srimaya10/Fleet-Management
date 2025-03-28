@@ -46,7 +46,8 @@ public class Baseclass extends wrapper {
 		String date = DATE_FORMAT.format(today);
 		String SystemName=InetAddress.getLocalHost().getHostName();
 		Systemout("Commusoft Web-Automation Started in :   "+SystemName +""+"Date:"+""+ date );
-		driver=browser.startapplication(driver, "chrome","https://app.commusoft.us/");
+		driver=browser.startapplication(driver, "chrome","https://app.commusoft.us/"); //US
+		//driver=browser.startapplication(driver, "chrome","https://app.commusoft.us/"); //stage2
 
 	}
 	@AfterMethod(alwaysRun = true)
