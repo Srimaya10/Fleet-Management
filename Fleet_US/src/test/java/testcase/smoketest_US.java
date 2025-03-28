@@ -225,6 +225,7 @@ public class smoketest_US extends Baseclass{
 		Thread.sleep(2000);
 		click("//button[@class=\"btn btn-primary no-margin\"]");
 	    Thread.sleep(2000);
+	    
 		//Delete check form
 	    click("//input[@id=\"folder-search\"]");
 		Thread.sleep(2000);
